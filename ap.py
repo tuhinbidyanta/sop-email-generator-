@@ -1,7 +1,12 @@
 import requests
 import google.generativeai as genai
 from bs4 import BeautifulSoup
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
+
+akey = os.environ.get("ApiKey")
 def extract_text_from_class(url, class_name="gsc_a_t"):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
@@ -19,7 +24,7 @@ def extract_text_from_class(url, class_name="gsc_a_t"):
         return [f"Error fetching webpage: {e}"]
 
 def generate_sop(topics, additional_prompt="", prompt_type="statement of purpose"):
-    genai.configure(api_key="AIzaSyDSGJ9xFQ3hPkANXoDppFtX5eEXkBsEAew")
+    genai.configure(api_key=akey)
     model = genai.GenerativeModel("gemini-1.5-flash")
 
     combined_topics = ", ".join(topics)
