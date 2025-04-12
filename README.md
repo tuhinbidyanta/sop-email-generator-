@@ -10,9 +10,12 @@ This is a windows app for me for generating email and sop . It uses only the pro
  ## Required Modules
  * **PyQt**
  * **beautifulsoup4**
+ * **requests**
+ * **google.generativeai**
  * **os**
  * **sys**
  ## Application link (from where you can download )
  > it is generate for me only not for anyone.
 
-<a herf="https://github.com/tuhinbidyanta/sop-email-generator-/tree/main/dist">Click here<a/>
+
+[Click here](https://github.com/tuhinbidyanta/sop-email-generator-/tree/main/dist)
