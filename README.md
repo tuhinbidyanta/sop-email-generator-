@@ -2,6 +2,7 @@
 This is a windows app for me for generating email and sop . It uses only the professors google link and it will analysis the area of interest and reasearch field using gemini api and genrate sop or email for Me. 
  ## UI
 <img src="https://github.com/tuhinbidyanta/sop-email-generator-/blob/main/ui.png" alt="Alt Text" width="400"/>
+
  ## Steps to build
  * first build a Gui using PyQt
  * create an free api in google gemini
