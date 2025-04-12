@@ -1,0 +1,2 @@
+"AIzaSyDSGJ9xFQ3hPkANXoDppFtX5eEXkBsEAew"
+"gemini-1.5-flash"
