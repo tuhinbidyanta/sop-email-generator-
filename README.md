@@ -14,4 +14,5 @@ This is a windows app for me for generating email and sop . It uses only the pro
  * **sys**
  ## Application link (from where you can download )
  > it is generate for me only not for anyone.
-<a herf="">Click here<a/>
+
+<a herf="https://github.com/tuhinbidyanta/sop-email-generator-/tree/main/dist">Click here<a/>
